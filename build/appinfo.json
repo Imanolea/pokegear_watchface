@@ -1,0 +1,30 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "chalk", 
+        "diorite"
+    ], 
+    "displayName": "Pok\u00e9gear", 
+    "name": "watchface_pokegear", 
+    "messageKeys": {
+        "dummy": 10000
+    }, 
+    "companyName": "Imanolea", 
+    "enableMultiJS": true, 
+    "versionLabel": "1.0", 
+    "capabilities": [], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "dummy": 10000
+    }, 
+    "longName": "Pok\u00e9gear", 
+    "shortName": "Pok\u00e9gear", 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "2910099c-a1b4-4a25-8a83-c3bd6ff30f51"
+}
