@@ -1,13 +1,13 @@
-# project  configured on Sun May 28 13:48:46 2017 by
+# project  configured on Thu Jun  1 22:13:43 2017 by
 # waf 1.7.11 (abi 98, python 2070cf0 on linux2)
 # using /home/imanolea/.pebble-sdk/SDKs/current/sdk-core/pebble/waf configure
 #
 ----------------------------------------
 Setting top to
-/home/imanolea/Documentos/Repositorios/watchface_pokegear
+/home/imanolea/Documentos/Repositorios/watchface_gameandwatch
 ----------------------------------------
 Setting out to
-/home/imanolea/Documentos/Repositorios/watchface_pokegear/build
+/home/imanolea/Documentos/Repositorios/watchface_gameandwatch/build
 ----------------------------------------
 Checking for program webpack
 /home/imanolea/.pebble-sdk/SDKs/current/node_modules/.bin/webpack

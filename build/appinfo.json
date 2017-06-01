@@ -5,7 +5,7 @@
         "chalk", 
         "diorite"
     ], 
-    "displayName": "Pok\u00e9gear", 
+    "displayName": "Game & Watch", 
     "name": "watchface_pokegear", 
     "messageKeys": {
         "dummy": 10000
@@ -18,13 +18,25 @@
     "appKeys": {
         "dummy": 10000
     }, 
-    "longName": "Pok\u00e9gear", 
-    "shortName": "Pok\u00e9gear", 
+    "longName": "Game & Watch", 
+    "shortName": "Game & Watch", 
     "watchapp": {
         "watchface": true
     }, 
     "resources": {
-        "media": []
+        "media": [
+            {
+                "type": "font", 
+                "name": "FONT_PERFECT_DOS_25", 
+                "file": "fonts/game-and-watch-regular.ttf", 
+                "compatibility": "2.7"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "IMAGE_BACKGROUND", 
+                "file": "images/background.png"
+            }
+        ]
     }, 
     "uuid": "2910099c-a1b4-4a25-8a83-c3bd6ff30f51"
 }

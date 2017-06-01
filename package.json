@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {},
   "pebble": {
-    "displayName": "Pokégear",
+    "displayName": "Game & Watch",
     "uuid": "2910099c-a1b4-4a25-8a83-c3bd6ff30f51",
     "sdkVersion": "3",
     "enableMultiJS": true,
@@ -23,7 +23,19 @@
       "dummy"
     ],
     "resources": {
-      "media": []
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_25",
+          "file": "fonts/game-and-watch-regular.ttf",
+          "compatibility": "2.7"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND",
+          "file": "images/background.png"
+        }
+      ]
     }
   }
 }
