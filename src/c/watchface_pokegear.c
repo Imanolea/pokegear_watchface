@@ -84,7 +84,7 @@ static void update_time(struct tm *tick_time) {
 
     // Mostramos esta hora en el TextLayer
     text_layer_set_text(s_time_layer, s_buffer);
-    if (s_ampm[0] == 'a') {
+    if (s_ampm[0] == 'A') {
         text_layer_set_text(s_am_layer, s_ampm);
     } else {
         text_layer_set_text(s_pm_layer, s_ampm);
