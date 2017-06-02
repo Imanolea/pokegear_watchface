@@ -40,6 +40,11 @@
           "type": "bitmap",
           "name": "IMAGE_BACKGROUND",
           "file": "images/background.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BACKGROUND_ROUND",
+          "file": "images/background_round.png"
         }
       ]
     }

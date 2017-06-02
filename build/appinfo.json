@@ -6,7 +6,7 @@
         "diorite"
     ], 
     "displayName": "Game & Watch", 
-    "name": "watchface_pokegear", 
+    "name": "watchface_gameandwatch", 
     "messageKeys": {
         "dummy": 10000
     }, 
@@ -41,6 +41,11 @@
                 "type": "bitmap", 
                 "name": "IMAGE_BACKGROUND", 
                 "file": "images/background.png"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "IMAGE_BACKGROUND_ROUND", 
+                "file": "images/background_round.png"
             }
         ]
     }, 

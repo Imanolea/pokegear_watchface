@@ -15,7 +15,7 @@ static void main_window_load(Window *window) {
     GRect bounds = layer_get_bounds(window_layer);
 
     // Creamos un GBitmap del fondo
-    s_background_bitmap = gbitmap_create_with_resource(RESOURCE_ID_IMAGE_BACKGROUND);
+    s_background_bitmap = gbitmap_create_with_resource(PBL_IF_ROUND_ELSE(RESOURCE_ID_IMAGE_BACKGROUND_ROUND, RESOURCE_ID_IMAGE_BACKGROUND));
 
     // Creamos un BitmapLayer para mostrar el GBitmap
     s_background_layer = bitmap_layer_create(bounds);
@@ -26,10 +26,10 @@ static void main_window_load(Window *window) {
 
     // Creamos el TextLayer con las dimensiones específicas
     s_time_layer = text_layer_create(
-        GRect(67, 3, bounds.size.w, 50));
+        GRect(PBL_IF_ROUND_ELSE(63, 67),PBL_IF_ROUND_ELSE(11, 3), bounds.size.w, 50));
     // Creamos los TextLayer de las letras de am/pm
-    s_am_layer = text_layer_create(GRect(48, 3, 14, 14));
-    s_pm_layer = text_layer_create(GRect(48, 15, 14, 14));
+    s_am_layer = text_layer_create(GRect(PBL_IF_ROUND_ELSE(44, 48), PBL_IF_ROUND_ELSE(11, 3), 14, 14));
+    s_pm_layer = text_layer_create(GRect(PBL_IF_ROUND_ELSE(44, 48), PBL_IF_ROUND_ELSE(23, 15), 14, 14));
     
     // Mejoramos la alineación para que se parezca más a la de un watchface
     text_layer_set_background_color(s_time_layer, GColorClear);
