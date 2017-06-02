@@ -31,6 +31,12 @@
           "compatibility": "2.7"
         },
         {
+          "type": "font",
+          "name": "FONT_PERFECT_DOS_12",
+          "file": "fonts/ampm.ttf",
+          "compatibility": "2.7"
+        },
+        {
           "type": "bitmap",
           "name": "IMAGE_BACKGROUND",
           "file": "images/background.png"
