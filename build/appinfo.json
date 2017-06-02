@@ -12,7 +12,7 @@
     }, 
     "companyName": "Imanolea", 
     "enableMultiJS": true, 
-    "versionLabel": "1.1", 
+    "versionLabel": "1.2", 
     "capabilities": [], 
     "sdkVersion": "3", 
     "appKeys": {
@@ -26,8 +26,9 @@
     "resources": {
         "media": [
             {
+                "memoryFormat": "1Bit", 
                 "menuIcon": true, 
-                "type": "png", 
+                "type": "bitmap", 
                 "name": "IMAGE_MENU_ICON", 
                 "file": "images/icon.png"
             }, 
